@@ -135,7 +135,10 @@ kubectl get services
 
 ![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/f90bf5fb-16e7-43b0-a771-ebdcb178c115)
 
-## 7. Navigate to the Web API endpoints
+## 7. Navigate to the Web API endpoint
 
+http://localhost/weatherforecast
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/123fc551-fc57-4e60-8baa-4bb129007ed7)
 
 
