@@ -22,9 +22,22 @@ Here are the general steps to deploy your .NET 8 Web API to Kubernetes:
 
 ## 3. Build and Push the Docker image to the Docker Hub registry/repo
 
+Then we use the docker push command to upload the image to the Docker Hub repository:
 
+```
+docker push luiscoco/webapidotnet8:latest
+```
 
 ## 4. Create Kubernetes Deployment YAML file
+
+In Visual Studio we add a new yaml file to our project
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/d17651ef-f1b8-42d8-86fd-f6db6c0c3438)
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/8673210a-2007-458d-93a6-e11a877008bb)
+
+
+This is the source code for the **deployment.yaml** file:
 
 **deployment.yaml**
 
