@@ -125,10 +125,17 @@ Verify the Deployment with the command:
 kubectl get deployments
 ```
 
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/1b6e279d-ab83-43f4-b074-fd5e119667ab)
+
 Verify the service status with the command:
 
 ```
 kubectl get services
 ```
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/f90bf5fb-16e7-43b0-a771-ebdcb178c115)
+
+## 7. Navigate to the Web API endpoints
+
 
 
