@@ -57,9 +57,9 @@ In Visual Studio we add a new yaml file to our project
 
 This is the source code for the **deployment.yaml** file:
 
-**deployment.yaml**
+**deployment.yml**
 
-```yaml
+```yml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -87,9 +87,9 @@ In Visual Studio we add a new yaml file to our project. See the steps explained 
 
 ![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/110c1a8b-60cb-482f-b844-715acd427f72)
 
-**service.yaml**
+**service.yml**
 
-```yaml
+```yml
 apiVersion: v1
 kind: Service
 metadata:
@@ -106,8 +106,8 @@ spec:
 ## 6. Applying the YAML Files
 
 ```
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
+kubectl apply -f deployment.yml
+kubectl apply -f service.yml
 ```
 
 We can use the command "**kubectl get services**" to check the IP and port your application is accessible on, if using a LoadBalancer.
