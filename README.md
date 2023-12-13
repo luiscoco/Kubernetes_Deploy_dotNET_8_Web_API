@@ -141,4 +141,21 @@ http://localhost/weatherforecast
 
 ![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/123fc551-fc57-4e60-8baa-4bb129007ed7)
 
+## 8. Deleting teh deployment and service
+
+For deleting the Deployment run the command:
+
+```
+kubectl delete deployment webapidotnet8-deployment
+```
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/bd9636d8-e31a-4bde-883d-7f62e012057e)
+
+For deleting the Service run the command:
+
+```
+kubectl delete service webapidotnet8-service
+```
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/e63fe722-6e76-4095-a9a3-cd95e34720cf)
 
