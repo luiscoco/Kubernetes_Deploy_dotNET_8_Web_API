@@ -107,8 +107,15 @@ spec:
 
 ```
 kubectl apply -f deployment.yml
+```
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/fb9d3322-2c2c-40e1-8a82-c60afd2c91b4)
+
+```
 kubectl apply -f service.yml
 ```
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/2309e706-36e1-4667-949a-29aadf712a18)
 
 We can use the command "**kubectl get services**" to check the IP and port your application is accessible on, if using a LoadBalancer.
 
