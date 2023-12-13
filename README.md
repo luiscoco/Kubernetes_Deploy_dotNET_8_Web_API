@@ -83,6 +83,10 @@ spec:
 
 ## 5. Create Kubernetes Service YAML file
 
+In Visual Studio we add a new yaml file to our project. See the steps explained in the section 4.
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/110c1a8b-60cb-482f-b844-715acd427f72)
+
 **service.yaml**
 
 ```yaml
