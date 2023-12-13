@@ -2,11 +2,21 @@
 
 ## 1. Prerequisites
 
-Download and Install Docker Desktop
+Download and Install Docker Desktop: https://docs.docker.com/desktop/install/windows-install/
 
 Run Docker Desktop
 
-Navigate to enable the Kubernetes option in Docker Desktop
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/d7dc6eec-9505-44e4-966e-8bc2a1c37860)
+
+Navigate to enable the Kubernetes option in Docker Desktop:
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/88f781ca-228b-4b68-b439-8237cb26c3d9)
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/2939ab9f-883e-4ef4-a9b1-ed436a8fc1e6)
+
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/1c7dd4f5-e503-46d8-aa93-c0d2d383fa22)
+
+
 
 ## 2. Summarizing the steps for deploying your application to Kubernetes
 
