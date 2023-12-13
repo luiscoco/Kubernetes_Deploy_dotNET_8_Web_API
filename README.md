@@ -26,7 +26,44 @@ Here are the general steps to deploy your .NET 8 Web API to Kubernetes:
 
 ## 4. Create Kubernetes Deployment YAML file
 
+**deployment.yaml**
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapi-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webapi
+  template:
+    metadata:
+      labels:
+        app: webapi
+    spec:
+      containers:
+      - name: webapi
+        image: luiscoco/webapi:latest  # Replace with your image path
+        ports:
+        - containerPort: 8080
+```
 
 ## 5. Create Kubernetes Service YAML file
 
+**service.yaml**
 
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapi-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 8080
+  selector:
+    app: webapi
+```
