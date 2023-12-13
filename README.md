@@ -74,7 +74,7 @@ spec:
     spec:
       containers:
       - name: webapi
-        image: luiscoco/webapi:latest  # Replace with your image path
+        image: luiscoco/webapidotnet8:latest  # Replace with your image path
         ports:
         - containerPort: 8080
 ```
