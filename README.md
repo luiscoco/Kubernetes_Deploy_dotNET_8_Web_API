@@ -96,3 +96,26 @@ spec:
   selector:
     app: webapi
 ```
+
+## 6. Applying the YAML Files
+
+```
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+```
+
+We can use the command "**kubectl get services**" to check the IP and port your application is accessible on, if using a LoadBalancer.
+
+Verify the Deployment with the command:
+
+```
+kubectl get deployments
+```
+
+Verify the service status with the command:
+
+```
+kubectl get services
+```
+
+
