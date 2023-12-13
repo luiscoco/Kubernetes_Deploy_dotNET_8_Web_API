@@ -2,6 +2,8 @@
 
 ## 1. Prerequisites
 
+Install **kubectl** command in Windows: https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
+
 Download and Install Docker Desktop: https://docs.docker.com/desktop/install/windows-install/
 
 Run Docker Desktop
