@@ -63,19 +63,19 @@ This is the source code for the **deployment.yaml** file:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webapi-deployment
+  name: webapidotnet8-deployment
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: webapi
+      app: webapidotnet8
   template:
     metadata:
       labels:
-        app: webapi
+        app: webapidotnet8
     spec:
       containers:
-      - name: webapi
+      - name: webapidotnet8
         image: luiscoco/webapidotnet8:latest  # Replace with your image path
         ports:
         - containerPort: 8080
@@ -89,14 +89,14 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: webapi-service
+  name: webapidotnet8-service
 spec:
   type: LoadBalancer
   ports:
   - port: 80
     targetPort: 8080
   selector:
-    app: webapi
+    app: webapidotnet8
 ```
 
 ## 6. Applying the YAML Files
