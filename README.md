@@ -16,7 +16,9 @@ Navigate to enable the Kubernetes option in Docker Desktop:
 
 ![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/1c7dd4f5-e503-46d8-aa93-c0d2d383fa22)
 
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/7206c4e6-fc89-4b76-b9fd-d93b61f7c7a9)
 
+![image](https://github.com/luiscoco/Kubernetes_Deploy_dotNET_8_Web_API/assets/32194879/35f0cd42-7d35-4ee3-b0d9-e815522947f6)
 
 ## 2. Summarizing the steps for deploying your application to Kubernetes
 
