@@ -6,7 +6,7 @@ Download and Install Docker Desktop
 
 Run Docker Desktop
 
-Navigate to
+Navigate to enable the Kubernetes option in Docker Desktop
 
 ## 2. Summarizing the steps for deploying your application to Kubernetes
 
