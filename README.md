@@ -42,6 +42,12 @@ For more details about this section see the repo: https://github.com/luiscoco/Do
 docker build -t luiscoco/webapidotnet8:latest .
 ```
 
+To verify we created the docker image run the command:
+
+```
+docker images
+```
+
 Then we use the docker push command to upload the image to the Docker Hub repository:
 
 ```
